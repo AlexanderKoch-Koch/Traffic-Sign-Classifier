@@ -9,7 +9,6 @@
 [image7]: ./new_images/4.png "Traffic Sign 4"
 [image8]: ./new_images/5.png "Traffic Sign 5"
 
-You're reading it! and here is a link to my [project code](https://github.com/udacity/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier.ipynb)
 
 ### Data Set Summary & Exploration
 
