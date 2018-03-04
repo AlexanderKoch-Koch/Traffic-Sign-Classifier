@@ -77,9 +77,9 @@ beta = 0.01
 The code for calculating the accuracy of the model is located in the ninth cell of the Ipython notebook.
 
 My final model results were:
-* training set accuracy of ?
-* validation set accuracy of ? 
-* test set accuracy of ?
+* training set accuracy of 0.995
+* validation set accuracy of 0.95
+* test set accuracy of 0.94
 
 If an iterative approach was chosen:
 I began with the LeNet architecture. But due to overfitting I had to apply dropout and l2 regularization.
