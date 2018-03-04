@@ -1,6 +1,6 @@
-#**Traffic Sign Recognition** 
+# **Traffic Sign Recognition** 
 
-##Writeup
+## Writeup
 
 [//]: # (Image References)
 [image4]: ./new_images/0.png "Traffic Sign 1"
@@ -11,9 +11,9 @@
 
 You're reading it! and here is a link to my [project code](https://github.com/udacity/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier.ipynb)
 
-###Data Set Summary & Exploration
+### Data Set Summary & Exploration
 
-####1. Basic summary
+#### 1. Basic summary
 
 The code for this step is contained in the second code cell of the IPython notebook.  
 
@@ -25,16 +25,16 @@ signs data set:
 * The shape of a traffic sign image is 32x32x3
 * The number of unique classes/labels in the data set is 43
 
-####2. Exploratory visualization
+#### 2. Exploratory visualization
 
 The code for this step is contained in the third code cell of the IPython notebook.  
 
 Here is an exploratory visualization of the data set. It shows a training image and its label.
 
 
-###Design and Test a Model Architecture
+### Design and Test a Model Architecture
 
-####2. Generating fake images
+#### 2. Generating fake images
 
 The code for splitting the data into training and validation sets is contained in the fifth code cell of the IPython notebook.  
 
@@ -43,7 +43,7 @@ My final extended training set had 243,593 images.
 The sixth code cell of the IPython notebook contains the code for augmenting the data set. I decided to generate additional data because my neural net was overfitting. To add more data to the the data set, I used random rotation and random translation which was done by the opencv library.
 
 
-####3. Model architecture
+#### 3. Model architecture
 
 The code for my final model is located in the seventh cell of the ipython notebook. 
 
@@ -63,7 +63,7 @@ My final model consisted of the following layers:
  
 
 
-####4. Training
+#### 4. Training
 
 The code for training the model is located in the seventh cell of the ipython notebook. 
 
@@ -73,7 +73,7 @@ batch_size = 200
 epochs = 80
 beta = 0.01
 
-####5. Approach
+#### 5. Approach
 
 The code for calculating the accuracy of the model is located in the ninth cell of the Ipython notebook.
 
@@ -86,10 +86,10 @@ If an iterative approach was chosen:
 I began with the LeNet architecture. But due to overfitting I had to apply dropout and l2 regularization.
  
 
-###Test a Model on New Images
+### Test a Model on New Images
 
 
-####2. Model predictions
+#### 2. Model predictions
 
 The code for making predictions on my final model is located in the tenth cell of the Ipython notebook.
 
